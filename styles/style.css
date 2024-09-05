@@ -1,0 +1,65 @@
+{
+    background-color: rgb(20, 129, 93);
+}
+
+h1{
+    width: 100%;
+    border: solid 22px rgb(248, 200, 200);
+    z-index: -999;
+    position: absolute;
+}
+
+div.nav_bar {
+    font-size: medium;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    z-index: 999;
+    position: absolute;
+}
+
+
+div.card{
+    display: inline-block;
+    margin: 2%;
+    text-align: center;
+    position: relative;
+}
+
+li {
+    margin: 0px;
+    padding: 0px;
+}
+
+.card-body2{
+    width: 90%;
+    text-align: center;
+}
+
+.card-body3{
+    width: 170%;
+    text-align: center;
+}
+
+.card-body, .card-body1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.card > img {
+    width:170%; 
+    max-width: 700%;
+}
+
+#plant {
+    width: 100%;
+}
+
+#team {
+    width: 100%;
+}
+
+#graph {
+    width: 100%;
+}
